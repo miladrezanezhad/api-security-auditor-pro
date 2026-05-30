@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-security-auditor-pro"
+version = "1.0.0"
+description = "Professional command-line tool for comprehensive API security auditing"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Milad Rezanezhad", email = "miladvf2014@gmail.com"}
+]
+
+dependencies = [
+    "httpx>=0.27.0",
+    "aiohttp>=3.9.0",
+    "click>=8.1.0",
+    "rich>=13.7.0",
+    "pyyaml>=6.0",
+    "jinja2>=3.1.0",
+    "pydantic>=2.5.0",
+    "tenacity>=8.2.0",
+    "python-dateutil>=2.8.0",
+    "requests>=2.31.0",
+    "tabulate>=0.9.0",
+    "colorama>=0.4.6",
+    "tqdm>=4.66.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[project.scripts]
+api-auditor = "api_security_auditor_pro.cli.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

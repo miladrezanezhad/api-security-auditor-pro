@@ -1,0 +1,18 @@
+{
+  "target": "https://jsonplaceholder.typicode.com/users",
+  "timestamp": "2026-05-30T05:20:57.186710",
+  "vulnerabilities": [
+    {
+      "check": "Rate Limiting",
+      "severity": "MEDIUM",
+      "finding": "No rate limiting detected",
+      "remediation": "Implement rate limiting to prevent brute force attacks",
+      "evidence": "Sent 30 requests, 0 were rate limited"
+    }
+  ],
+  "info_findings": [],
+  "scan_summary": {
+    "duration_seconds": 3.81,
+    "checks_performed": 1
+  }
+}
