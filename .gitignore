@@ -1,0 +1,141 @@
+# Secrets and Keys
+*.key
+*.pem
+*.crt
+*.p12
+secrets.py
+config.local.py
+.env
+.env.local
+.env.*.local
+*.secret
+*.token
+api_keys.txt
+passwords.txt
+credentials.json
+service-account.json
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.venv
+.virtualenv
+venv*/
+env*/
+.venv*/
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+.idea_modules/
+.idea/
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.~*
+.*.swp
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.db-journal
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.exe
+*.dll
+*.so
+*.dylib
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.coverage.*
+.htmlcov/
+.coveralls.yml
+*.cover
+coverage.xml
+*.pytest_cache/
+test-reports/
+nosetests.xml
+# Documentation
+docs/_build/
+docs/.build/
+site/
+*.pyc
+*.pyo
+*.mo
+*.pot
+*.psd
+*.ai
+# Personal configs
+.ipynb_checkpoints/
+*.pkl
+*.pickle
+*.dump
+*.prof
+*.mypy_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+pyrightconfig.json
