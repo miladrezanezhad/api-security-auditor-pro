@@ -1,5 +1,14 @@
 
+# 
+<div align="center">
+
+<img src="image.png" alt="Web Security Scanner Pro">
+
 # 🔒 API Security Auditor Pro
+
+Advanced Open Source **API Security Auditor Pro**
+
+</div>
 
 [![PyPI version](https://badge.fury.io/py/api-security-auditor-pro.svg)](https://pypi.org/project/api-security-auditor-pro/)
 [![Python Version](https://img.shields.io/pypi/pyversions/api-security-auditor-pro.svg)](https://pypi.org/project/api-security-auditor-pro/)
