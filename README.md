@@ -44,7 +44,7 @@ pip install api-security-auditor-pro
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/api-security-auditor-pro.git
+git clone https://github.com/miladrezanezhad/api-security-auditor-pro.git
 cd api-security-auditor-pro
 pip install -e .
 ```
@@ -52,8 +52,8 @@ pip install -e .
 ### With Docker
 
 ```bash
-docker pull yourusername/api-security-auditor-pro
-docker run yourusername/api-security-auditor-pro --help
+docker pull miladrezanezhad/api-security-auditor-pro
+docker run miladrezanezhad/api-security-auditor-pro --help
 ```
 
 ## 🎬 Quick Start
@@ -268,13 +268,13 @@ api-auditor test-rate-limit https://api.chucknorris.io/jokes/random
 
 ```bash
 # Pull the image
-docker pull yourusername/api-security-auditor-pro:latest
+docker pull miladrezanezhad/api-security-auditor-pro:latest
 
 # Run a scan
-docker run yourusername/api-security-auditor-pro scan https://api.example.com
+docker run miladrezanezhad/api-security-auditor-pro scan https://api.example.com
 
 # Save output locally
-docker run -v $(pwd)/output:/output yourusername/api-security-auditor-pro \
+docker run -v $(pwd)/output:/output miladrezanezhad/api-security-auditor-pro \
   scan https://api.example.com --output /output/report.json
 ```
 
@@ -282,7 +282,7 @@ docker run -v $(pwd)/output:/output yourusername/api-security-auditor-pro \
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/api-security-auditor-pro.git
+git clone https://github.com/miladrezanezhad/api-security-auditor-pro.git
 cd api-security-auditor-pro
 
 # Build image
@@ -439,7 +439,7 @@ Contributions are welcome! Here's how you can help:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/api-security-auditor-pro.git
+git clone https://github.com/miladrezanezhad/api-security-auditor-pro.git
 cd api-security-auditor-pro
 
 # Create virtual environment
@@ -469,16 +469,16 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/api-security-auditor-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/api-security-auditor-pro/discussions)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/miladrezanezhad/api-security-auditor-pro/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/miladrezanezhad/api-security-auditor-pro/discussions)
+- **Email**: miladvf2014@gmail.com
 
 ## ⭐ Star This Project
 
 If you find this tool useful, please star it on GitHub!
 
 ```
-https://github.com/yourusername/api-security-auditor-pro
+https://github.com/miladrezanezhad/api-security-auditor-pro
 ```
 
 ---
