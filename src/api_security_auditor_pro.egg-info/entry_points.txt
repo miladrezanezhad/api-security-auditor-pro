@@ -1,2 +1,0 @@
-[console_scripts]
-api-auditor = api_security_auditor_pro.cli.main:cli
